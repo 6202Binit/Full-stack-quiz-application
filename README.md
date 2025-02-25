@@ -100,5 +100,3 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-Note: Ensure that your MySQL server is running, and the database quiz_system is created before starting the backend server.
