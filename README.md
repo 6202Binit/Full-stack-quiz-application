@@ -22,59 +22,34 @@ Node.js and npm: Ensure you have the latest stable versions.
 MySQL Database: For persisting application data.
 Installation
 Clone the Repository:
-
-bash
-Copy
-Edit
 git clone https://github.com/your-username/quiz-application.git
 cd quiz-application
 Backend Setup:
 
 Navigate to the backend directory:
-
-bash
-Copy
-Edit
 cd backend
 Configure the MySQL database:
 
 Update the src/main/resources/application.properties file with your MySQL credentials:
-
-properties
-Copy
-Edit
 spring.datasource.url=jdbc:mysql://localhost:3306/quiz_system
 spring.datasource.username=your_username
 spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 Build the backend application using Maven:
 
-bash
-Copy
-Edit
 mvn clean install
 Frontend Setup:
 
 Navigate to the frontend directory:
-
-bash
-Copy
-Edit
 cd ../frontend
 Install the required npm packages:
 
-bash
-Copy
-Edit
 npm install
 Running the Application
 Start the Backend Server:
 
 From the backend directory, run:
 
-bash
-Copy
-Edit
 mvn spring-boot:run
 The backend server will start on http://localhost:8080.
 
@@ -82,16 +57,12 @@ Start the Frontend Development Server:
 
 From the frontend directory, run:
 
-bash
-Copy
-Edit
+
 npm start
 The frontend application will start on http://localhost:3000.
 
 Project Structure
-plaintext
-Copy
-Edit
+
 quiz-application/
 ├── backend/
 │   ├── src/
