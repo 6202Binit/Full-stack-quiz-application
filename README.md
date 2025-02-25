@@ -22,7 +22,7 @@ Node.js and npm: Ensure you have the latest stable versions.
 MySQL Database: For persisting application data.
 Installation
 Clone the Repository:
-git clone https://github.com/6202Binit/quiz-application.git
+git clone https://github.com/6202Binit/Full-stack-quiz-application.git
 cd quiz-application
 Backend Setup:
 
